@@ -2,7 +2,9 @@
     background-color: black;
     color: white;
     text-align: center;
+    height: 25px;
    margin-bottom: 0px;
+   padding-top: 10px;
 }
 
 .NavBar{
@@ -13,12 +15,20 @@
 .OlNavBar{
     list-style-type: none;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .LiNavBar{
     display: block;
     padding: 10px 15px;
+    margin-top: 15px;
 }
+
+.iconNav{
+    height: 35px;
+    width: 35px;
+}
+
 
 a{
     color: black;
@@ -32,4 +42,35 @@ img{
 
 footer{
     border: 1px solid black;
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.FooterQuote{
+    width: 55%;
+    padding: 10px;
+}
+
+.FooterNav{
+    width: 50%;
+    padding: 10px;
+}
+
+.FooterNavBar{
+    list-style-type: none;
+}
+
+.LiFooter{
+    display: block;
+    padding: 10px 15px;
+}
+
+.SocialMedia{
+    margin-left: 545px;
+}
+
+.iconFooter{
+    height: 20px;
+    width: 20px;
+    padding: 10px 15px;
 }
