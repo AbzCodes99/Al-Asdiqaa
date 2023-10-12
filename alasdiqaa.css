@@ -1,0 +1,35 @@
+.Freeshipping{
+    background-color: black;
+    color: white;
+    text-align: center;
+   margin-bottom: 0px;
+}
+
+.NavBar{
+    border: 1px solid black;
+    margin-top: 0px;
+}
+
+.OlNavBar{
+    list-style-type: none;
+    display: flex;
+}
+
+.LiNavBar{
+    display: block;
+    padding: 10px 15px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+img{
+    height: 75px;
+    width: 150px;
+}
+
+footer{
+    border: 1px solid black;
+}
