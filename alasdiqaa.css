@@ -77,27 +77,35 @@ footer{
 
 
 .mainProfile{
-    border: 1px solid black;
     text-align: center;
     margin-top: 250px;
     margin-bottom: 250px;
 }
 
 .mainBasket{
-    border: 1px solid black;
     text-align: center;
     margin-top: 250px;
     margin-bottom: 250px;
 }
 
 #basketContinue{
-    border: 1px solid black;
     color: white;
     background-color: black;
-    margin-right: 250px;
-    margin-left: 250px;
+    margin-right: 610px;
+    margin-left: 610px;
+    padding:10px;
 }
 
 #loginFaster{
     text-decoration: underline;
 }
+
+.mainAbout{
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+#AboutPics{
+    display: flex;
+}
+
