@@ -119,4 +119,29 @@ footer{
     width: 33.33333%;
     padding: 10px 15px;
 }
+#mainClothing{
+    border: 1px solid black;
+    
+    margin-bottom: 250px;
+    text-align: center;
+}
+
+#allDivs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.clothingDivs{
+    border: 1px solid black;
+    width: 30%;
+    
+    
+}
+
+#imgClothing{
+max-width: 100%;
+height: auto;
+}
+
 
