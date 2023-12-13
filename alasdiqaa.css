@@ -120,8 +120,7 @@ footer{
     padding: 10px 15px;
 }
 #mainClothing{
-    border: 1px solid black;
-    
+    margin-top: 50px;
     margin-bottom: 250px;
     text-align: center;
 }
@@ -133,10 +132,8 @@ footer{
 }
 
 .clothingDivs{
-    border: 1px solid black;
-    width: 30%;
-    
-    
+    margin-bottom: 40px;
+    width: 25%;
 }
 
 #imgClothing{
@@ -144,4 +141,27 @@ max-width: 100%;
 height: auto;
 }
 
+#mainClothingitem{
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 250px;
+    display: flex;
+}
 
+#imgClothingitem{
+    width: 50%;
+}
+
+#clothingPurchase{
+    border: 1px solid black;
+    padding: 200px;
+}
+
+
+#addCart{
+    color: white;
+    background-color: black;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding:10px;
+}
