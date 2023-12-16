@@ -136,11 +136,6 @@ footer{
     width: 25%;
 }
 
-#imgClothing{
-max-width: 100%;
-height: auto;
-}
-
 #mainClothingitem{
     border: 1px solid black;
     margin-top: 50px;
@@ -149,19 +144,95 @@ height: auto;
 }
 
 #imgClothingitem{
+    width: 100px;
+    height: 500px;
     width: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#imgClothing{
+    height: 100%;
+    width: 50%;
+    
 }
 
 #clothingPurchase{
     border: 1px solid black;
-    padding: 200px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 200px;
+  
+
+   text-align: center;
 }
 
 
 #addCart{
     color: white;
     background-color: black;
-    margin-right: 0px;
-    margin-left: 0px;
-    padding:10px;
+    margin-right: 125px;
+    margin-left: 125px;
+    padding:15px;
 }
+
+.quantity-container {
+    padding-right: 100px;
+    padding-left: 35px;
+    margin-left: 125px;
+    display: flex;
+    align-items: center;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .quantity-control {
+    width: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    background-color: #f8f8f8;
+    color: black;
+  }
+
+  .quantity-input {
+    flex: 1;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    outline: none;
+  }
+
+
+  .size-container {
+    padding-right: 100px;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .size-box {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .size-box.selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+
+
