@@ -1,3 +1,4 @@
+/*This is for the Nav bar and Footer of every page */
 .Freeshipping{
     background-color: black;
     color: white;
@@ -75,31 +76,43 @@ footer{
     padding: 10px 15px;
 }
 
-
+/*This is the Profile page */
 .mainProfile{
     text-align: center;
     margin-top: 250px;
     margin-bottom: 250px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 2em;
+    background-color: #f0f0f0;
 }
 
+/*This is the Basket page */
 .mainBasket{
     text-align: center;
     margin-top: 250px;
     margin-bottom: 250px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 2em;
+    background-color: #f0f0f0;
 }
 
 #basketContinue{
-    color: white;
-    background-color: black;
     margin-right: 610px;
-    margin-left: 610px;
-    padding:10px;
+    margin-left: 550px;
+    display: inline-block;
+    padding: 15px 50px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
 }
 
 #loginFaster{
     text-decoration: underline;
 }
 
+/*This is the About page */
 .mainAbout{
     margin-bottom: 250px;
 }
@@ -118,6 +131,11 @@ footer{
     height: 100%;
     width: 33.33333%;
     padding: 10px 15px;
+}
+
+/*This is the clothing page */
+.Clothingtitle{
+    text-align: center;
 }
 .container {
     max-width: 1200px;
@@ -163,6 +181,7 @@ footer{
     margin-top: 10px;
 }
 
+/*This is the seperate clothing item pages */
 #mainClothingitem{
     border: 1px solid black;
     margin-top: 50px;
@@ -196,11 +215,13 @@ footer{
 
 
 #addCart{
-    color: white;
-    background-color: black;
-    margin-right: 125px;
-    margin-left: 125px;
-    padding:15px;
+    margin-right: 100px;
+    margin-left: 100px;
+    display: inline-block;
+    padding: 10px 60px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
 }
 
 .quantity-container {
@@ -260,7 +281,7 @@ footer{
     background-color: #007bff;
     color: #fff;
   }
-
+  /*This is the Home page */
   .mainHome {
     padding: 2em;
   }
