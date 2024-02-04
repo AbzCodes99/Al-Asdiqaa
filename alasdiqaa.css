@@ -87,6 +87,33 @@ footer{
     background-color: #f0f0f0;
 }
 
+.search{
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+
+    border-color: grey;
+    box-shadow: 0 0 5px grey;
+}
+
+.button{
+    
+    width: 10%;
+    height: 50px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+   
+    
+}
+
+
 /*This is the Basket page */
 .mainBasket{
     text-align: center;
@@ -96,6 +123,7 @@ footer{
     margin-left: 50px;
     padding: 2em;
     background-color: #f0f0f0;
+    border-radius: 10px;
 }
 
 #basketContinue{
@@ -176,14 +204,13 @@ footer{
 }
 
 .price {
-    color: #e44d26;
+    color: #333;
     font-size: 1.2em;
     margin-top: 10px;
 }
 
 /*This is the seperate clothing item pages */
 #mainClothingitem{
-    border: 1px solid black;
     margin-top: 50px;
     margin-bottom: 250px;
     display: flex;
@@ -200,7 +227,8 @@ footer{
 #imgClothing{
     height: 100%;
     width: 50%;
-    
+    justify-content: center;
+    padding-top: 5%;
 }
 
 #clothingPurchase{
@@ -208,7 +236,7 @@ footer{
     padding-right: 100px;
     padding-left: 100px;
     padding-bottom: 200px;
-  
+    width: 50%;
 
    text-align: center;
 }
@@ -226,7 +254,7 @@ footer{
 
 .quantity-container {
     padding-right: 100px;
-    padding-left: 35px;
+    padding-left: 70px;
     margin-left: 125px;
     display: flex;
     align-items: center;
